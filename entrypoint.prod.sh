@@ -8,7 +8,7 @@ then
       sleep 0.1
     done
 
-    echo "PostgreSQL started"
+    echo "PostgreSQL started\n"
 fi
 
 until cd /home/app/web/app
