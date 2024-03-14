@@ -13,7 +13,8 @@ fi
 
 until cd /home/app/web/app
 do
-    echo "Waiting for server volume..."
+    echo "PWD"
+    pwd
 done
 gunicorn hello_django.wsgi:application --bind 0.0.0.0:8000
 
