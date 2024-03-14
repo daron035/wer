@@ -19,6 +19,7 @@ done
 
 echo "PWD"
 pwd
-gunicorn hello_django.wsgi:application --bind 0.0.0.0:8000
+# gunicorn hello_django.wsgi:application --bind 0.0.0.0:8000
+gunicorn buz.wsgi:application --bind 0.0.0.0:8000
 
 exec "$@"

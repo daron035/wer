@@ -1,3 +1,14 @@
-Django==3.2.6
-gunicorn==20.1.0
-psycopg2-binary==2.9.1
+# Django==3.2.6
+# gunicorn==20.1.0
+# psycopg2-binary==2.9.1
+Django==3.2.7
+Pillow==10.1.0
+pycodestyle==2.8.0
+pytz==2021.1
+sqlparse==0.4.2
+toml==0.10.2
+gunicorn
+psycopg2-binary
+environ
+django-environ
+toml
