@@ -22,7 +22,7 @@ services:
     env_file:
       - ./.env.staging.db
   nginx-proxy:
-    container_name: nginx-proxy-another
+    container_name: nginx-proxydd
     build: nginx
     restart: always
     ports:
